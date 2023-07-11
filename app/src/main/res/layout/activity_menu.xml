@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btn_xanh"
+        android:text="Dạo Chơi"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hardcore"
+        android:layout_width="276dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn_xanh"
+        android:text="Địa Ngục"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/traloi" />
+    <ImageView
+        android:id="@+id/ivnao"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/brain"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/ivnao"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Tay Nhanh Hơn Não"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luật Chơi:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="      -Đơn Giản Bạn Chỉ Việc Chọn đúng màu Như Hình"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:text="      -Đừng Để Màu Sắc Đánh Lừa bạn!"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            android:text="      -Hãy Tận Hưởng Và Tìm Ra Quy Tắc Chơi"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
